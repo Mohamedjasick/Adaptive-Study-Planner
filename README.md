@@ -75,8 +75,8 @@ AI Study Planner/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/ai-study-planner.git
-cd ai-study-planner
+git clone https://github.com/Mohamedjasick/Adaptive-Study-Planner.git
+cd Adaptive-Study-Planner
 ```
 
 ### 2. Setup the Backend
@@ -165,6 +165,10 @@ App runs at `http://localhost:5173`
 5. Output directory: `dist`
 6. Add environment variable: `VITE_API_URL=https://your-render-url.onrender.com/api`
 
+## 🌐 Live Demo
+
+- **App:** https://adaptive-study-planner-lac.vercel.app
+- **API:** https://adaptive-study-planner.onrender.com
 ---
 
 ## 📱 PWA Installation
