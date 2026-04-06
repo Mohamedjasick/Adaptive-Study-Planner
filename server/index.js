@@ -7,11 +7,26 @@ dotenv.config();
 connectDB();
 
 const app = express();
-app.use(cors());
+
+app.use(cors({
+  origin: [
+    'http://localhost:5173',
+    /\.vercel\.app$/
+  ],
+  credentials: true
+}));
+app.use(cors({
+  origin: [
+    'http://localhost:5173',
+    'https://adaptive-study-planner-lac.vercel.app',
+    /\.vercel\.app$/
+  ],
+  credentials: true
+}));
 app.use(express.json());
 
 app.use('/api/auth',     require('./routes/auth'));
-app.use('/api/plans',    require('./routes/plans'));      // ← new
+app.use('/api/plans',    require('./routes/plans'));
 app.use('/api/schedule', require('./routes/schedule'));
 app.use('/api/feedback', require('./routes/feedback'));
 
