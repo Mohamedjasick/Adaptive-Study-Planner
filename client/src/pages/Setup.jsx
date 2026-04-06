@@ -300,7 +300,7 @@ export default function Setup() {
   };
 
   return (
-    <div className="min-h-screen bg-[#11111b] text-white flex flex-col items-center justify-start py-10 px-4">
+    <div className="min-h-screen bg-[#11111b] text-white flex flex-col items-center justify-start pt-10 pb-32 px-4">
 
       {/* Header */}
       <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-8">
@@ -678,7 +678,7 @@ export default function Setup() {
               )}
 
               {/* ── Button row ── */}
-              <div className="space-y-2">
+             <div className="space-y-2 sticky bottom-4">
 
                 {/* Hours adjuster row — shown when there's a warning */}
                 {!previewing && previewData?.warning && (
