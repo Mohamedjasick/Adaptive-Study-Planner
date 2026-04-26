@@ -167,7 +167,7 @@ App runs at `http://localhost:5173`
 
 ## 🌐 Live Demo
 
-- **App:** https://adaptive-study-planner-lac.vercel.app
+- **App:** https://adaptive-study-planner-hmj.vercel.app
 - **API:** https://adaptive-study-planner.onrender.com
 ---
 
